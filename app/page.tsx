@@ -1,10 +1,10 @@
 import Image from "next/image";
+import UI from "./ui";
 
 export default function Home() {
   return (
     <main>
-      ToDoList
-      <i className="fas fa-check"></i>
+      <UI />
     </main>
   );
 }
